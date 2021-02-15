@@ -5,7 +5,7 @@ import store
 import send
 
 commands.add("help", "", "shows all commands")
-commands.add("store", "address, name", "stores sponsors (separated by comma)")
+commands.add("store", "address, name", "stores sponsors/members")
 commands.add("sendall", "", "sends email template to all recipients")
 commands.add("send", "name", "sends email to a specific recipient")
 commands.add("bcc", "", "sends a bcc email to all participants in the store file")
